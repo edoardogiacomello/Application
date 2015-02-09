@@ -1,0 +1,6 @@
+C:\Users\edo\AndroidStudioProjects\GiveMeTime\app\build\intermediates\classes\debug
+C:\Users\edo\AndroidStudioProjects\GiveMeTime\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-aec4c5ff33e7dd057cd3549e4d4b46afd62e8a07.jar
+C:\Users\edo\AndroidStudioProjects\GiveMeTime\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-aaa02529ee11a002eb64f0b7179aab5e29376215.jar
+C:\Users\edo\AndroidStudioProjects\GiveMeTime\app\build\intermediates\pre-dexed\debug\classes-d466dd1a9c14ede15927c17544c222c17fa520c4.jar
+C:\Users\edo\AndroidStudioProjects\GiveMeTime\app\build\intermediates\pre-dexed\debug\classes-f9be12d785960d19674eee788e51ca913c6eedd1.jar
+C:\Users\edo\AndroidStudioProjects\GiveMeTime\app\build\intermediates\pre-dexed\debug\classes-c2f01cb93d265f5bfbb8e391c3ebdb6d9b40efd1.jar

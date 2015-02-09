@@ -1,0 +1,89 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:id="@+id/editor_constraint_datepicker_text_info"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingBottom="10dp"
+	        android:text="@string/select_time" />
+	
+	    <TextView
+	        android:id="@+id/editor_constraint_datepicker_text1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/start"
+	        android:paddingBottom="10dp"
+	        android:gravity="center"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    <DatePicker
+	        android:id="@+id/editor_constraint_datepicker_start"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:calendarViewShown="false"
+	         />
+	
+	    <TextView
+	        android:id="@+id/editor_constraint_datepicker_text2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/end"
+	        android:paddingBottom="10dp"
+	        android:gravity="center"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <DatePicker
+	        android:id="@+id/editor_constraint_datepicker_end"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:calendarViewShown="false"
+	        />
+	    
+	    <RelativeLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="0dp"
+	
+	            android:orientation="horizontal"
+	            android:layout_weight="1" >
+	
+	            <Button
+	                style="?android:buttonBarButtonStyle"
+	                android:id="@+id/editor_constraint_datepicker_btn_cancel"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentLeft="true"
+	                android:layout_alignParentStart="true"
+	                android:layout_toLeftOf="@+id/centerPoint"
+	                android:layout_toStartOf="@+id/centerPoint"
+	                android:text="@string/cancel" />
+	
+	            <TextView
+	                android:id="@+id/centerPoint"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:text="" />
+	
+	            <Button
+	                style="?android:buttonBarButtonStyle"
+	                android:id="@+id/editor_constraint_datepicker_btn_save"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:layout_alignParentEnd="true"
+	                android:layout_toRightOf="@+id/centerPoint"
+	                android:layout_toEndOf="@+id/centerPoint"
+	                android:text="@string/Ok" />
+	        </RelativeLayout>
+	 </LinearLayout>
+	
+</ScrollView>
+	    
+
